@@ -97,16 +97,39 @@ for(var i = 0; i < 10000; i++) {
 	var w = ~~(Math.random()*100);
 	var h = ~~(Math.random()*100);
 	atlas.push( {
-		"id": 5,
-		"name": "test"+(i+3),
-		"website": "",
-		"subreddit": "",
-		"center": [0, 0],
-		"path":[
-			[x, y],
-			[x+w, y],
-			[x+w, y+h],
-			[x, y+h]
+		    {
+    	"id": 0,
+    	"name": "Chiblee",
+    	"description": "The Tokyo 2020/Polar Express twitch streamer \"Chiblee\"",
+    	"website": "http://www.twitch.tv/chiblee",
+    	"subreddit": "/r/chibleetwitch",
+    	"center": [
+    		1753.5,
+    		1405.5
+    	],
+    	"path": [
+    		[
+    			1740.5,
+    			1423.5
+    		],
+    		[
+    			1741.5,
+    			1386.5
+    		],
+    		[
+    			1765.5,
+    			1387.5
+    		],
+    		[
+    			1765.5,
+    			1423.5
+    		],
+    		[
+    			1740.5,
+    			1424.5
+    		]
+    	]
+    }
 		]
 	});
 }
